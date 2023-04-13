@@ -31,6 +31,7 @@ function App() {
 
   const handleTicketDownload = () => {
     // download ticket
+    alert('Ticket Downloaded, Happy Journey');
     console.log('Ticket downloaded');
   };
 
