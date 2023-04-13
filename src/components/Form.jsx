@@ -14,16 +14,18 @@ const Form = ({ onSubmit }) => {
   return (
     <div className='form-main'>
       <h1>Book Ticket </h1>
-      <form onSubmit={submitData}>
+      <form className='input-form' onSubmit={submitData}>
         <input
           type='text'
           name='from'
+          placeholder='Journey Start From'
           value={from}
           onChange={(e) => setFrom(e.target.value)}
         />
         <input
           type='text'
           name='to'
+          placeholder='To'
           value={to}
           onChange={(e) => setTo(e.target.value)}
         />
